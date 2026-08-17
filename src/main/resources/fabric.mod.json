@@ -3,13 +3,12 @@
   "id": "${id}",
   "version": "${version}",
   "name": "${name}",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A highly customizable hitbox configuration mod.",
   "authors": [
     "Jonnite"
   ],
   "contact": {
-    "homepage": "https://stonecutter.kikugie.dev/",
-    "sources": "https://codeberg.org/stonecutter/template-fabric"
+    "homepage": "https://modrinth.com/project/zqU1uktf"
   },
   "license": "CC0-1.0",
   "icon": "assets/betterhitboxes/icon.png",
