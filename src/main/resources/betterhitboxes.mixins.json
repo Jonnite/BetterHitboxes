@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "me.jonnite.mixin",
+  "compatibilityLevel": "${java}",
+  "mixins": [
+    "EntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

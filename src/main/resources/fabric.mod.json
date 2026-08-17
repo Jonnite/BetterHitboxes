@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Jonnite"
+  ],
+  "contact": {
+    "homepage": "https://stonecutter.kikugie.dev/",
+    "sources": "https://codeberg.org/stonecutter/template-fabric"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/betterhitboxes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.jonnite.Main"
+    ]
+  },
+  "mixins": [
+    "betterhitboxes.mixins.json"
+  ],
+  "accessWidener": "accesswidener.ct",
+  "depends": {
+    "fabricloader": ">=0.17",
+    "minecraft": "${minecraft}"
+  }
+}
